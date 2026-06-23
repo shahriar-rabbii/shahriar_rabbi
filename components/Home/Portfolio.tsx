@@ -79,14 +79,14 @@ export default function Portfolio() {
                 </div>
             </div>
 
-            {/* Project 2: Sporve */}
+            {/* Project 2: Bean Fien */}
             <div className="relative pt-12 lg:pt-10">
                 <div className="grid grid-cols-12 items-center">
                     {/* Background Image (Top on mobile) */}
                     <FadeIn delay={0.2} direction="left" className="col-span-12 lg:col-start-3 lg:col-span-10 relative aspect-[16/9] rounded-2xl overflow-hidden group order-1 lg:order-2">
                         <Image
-                            src="/sporve.png"
-                            alt="Sporve App"
+                            src="/bean.png"
+                            alt="Bean Fien Web"
                             fill
                             className="object-cover"
                         />
@@ -100,18 +100,18 @@ export default function Portfolio() {
                         </div>
                         <div className="space-y-2">
                             <h3 className="text-2xl lg:text-4xl font-semibold text-white tracking-tight uppercase leading-none">
-                                Sporve
+                                Bean Fien
                             </h3>
                             <p className="text-white/60 text-sm lg:text-base font-medium leading-relaxed max-w-md">
-                                A trading platform for car enthusiasts to trade in high-value collectibles.
+                                Brew. Order. Earn Rewards
                             </p>
                         </div>
                         <Link
-                            href="https://www.figma.com/design/ZsxEWudXvUAADeGg3A5jHN/vsrikan1?node-id=92-65&t=cBEN59wpJ1uZBVV5-0"
+                            href="https://www.behance.net/gallery/251550379/Coffee-Loyalty-App-Website"
                             target="_blank"
                             className="inline-flex items-center gap-3 text-[#FF6B00] font-semibold text-sm uppercase tracking-wider group/link hover:brightness-110 transition-all"
                         >
-                            Live Link
+                            View Case
                             <ArrowUpRight className="w-5 h-5 group-hover/link:translate-x-1 group-hover/link:-translate-y-1 transition-transform" />
                         </Link>
                     </FadeIn>

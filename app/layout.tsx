@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import CustomCursor from "@/components/ui/CustomCursor";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,7 +24,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} scroll-smooth`}>
-      <body className="font-sans min-h-screen flex flex-col text-white">
+      <body className="font-sans min-h-screen flex flex-col text-white md:cursor-none">
+        <CustomCursor />
         <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
         <Navbar />
         <main className="flex-grow pt-16">
