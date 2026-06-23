@@ -3,6 +3,7 @@ import Stats from "@/components/Home/Stats";
 import MyStory from "@/components/Home/MyStory";
 import Experience from "@/components/Home/Experience";
 import Tools from "@/components/Home/Tools";
+import LiveProjects from "@/components/Home/LiveProjects";
 import Portfolio from "@/components/Home/Portfolio";
 import Contact from "@/components/Home/Contact";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <MyStory />
       <Experience />
       <Tools />
+      <LiveProjects />
       <Portfolio />
       <Contact />
     </div>
