@@ -11,7 +11,7 @@ export default function LiveProjects() {
   return (
     <section id="live-projects" className="scroll-mt-32 px-4 sm:px-6 max-w-7xl mx-auto pb-20 lg:pb-32 space-y-10 lg:space-y-12">
       <div className="flex justify-center">
-        <div className="bg-[#FF6B00] text-white px-10 lg:px-12 py-3 lg:py-3.5 rounded-full font-semibold text-lg lg:text-xl shadow-[0_0_20px_rgba(255,107,0,0.2)]">
+        <div className="bg-[#FF6B00] text-white px-10 lg:px-12 py-2.5 lg:py-3 rounded-full font-semibold text-lg lg:text-xl shadow-[0_0_20px_rgba(255,107,0,0.2)]">
           Live Project
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function LiveProjects() {
           <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8 lg:p-10">
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div className="max-w-2xl">
-                
+
                 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white tracking-tight uppercase leading-none">
                   {project.title}
                 </h3>
