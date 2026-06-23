@@ -9,7 +9,7 @@ const projects = [
         description: "Brew. Order. Earn Rewards",
         image: "/bean.png",
         alt: "Bean Fien Web",
-        link: "https://www.figma.com/design/kR9tULhV92X6q9gJkmi4Jr/chaserxhype?node-id=1-2&p=f&t=631CPx5wzsEEpQbE-0"
+        link: "https://www.behance.net/gallery/251550379/Coffee-Loyalty-App-Website"
     },
     {
         title: "Gathering",

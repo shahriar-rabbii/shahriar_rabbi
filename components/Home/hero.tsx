@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left space-y-4 lg:space-y-8">
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-[#FF6B00] text-sm font-medium animate-fade-in-up delay-100">
                         <div className="w-2 h-2 rounded-full bg-[#FF6B00] animate-pulse" />
-                        Available for Proj
+                        Available for Projects
                     </div>
 
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight text-white animate-fade-in-up delay-200">
