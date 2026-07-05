@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Rabbi | Portfolio",
-  description: "Professional portfolio of Rabbi, showcasing projects and skills.",
+  title: "Shahriar | Portfolio",
+  description: "Professional portfolio of Shahriar Rabbi, showcasing projects and skills.",
 };
 
 import { Toaster } from "react-hot-toast";
