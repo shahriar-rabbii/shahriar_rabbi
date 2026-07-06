@@ -13,6 +13,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Shahriar | Portfolio",
   description: "Professional portfolio of Shahriar Rabbi, showcasing projects and skills.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 import { Toaster } from "react-hot-toast";
