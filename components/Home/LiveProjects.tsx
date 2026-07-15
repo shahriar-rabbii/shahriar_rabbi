@@ -31,7 +31,7 @@ export default function LiveProjects() {
             key={project.id}
             className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] shadow-[0_0_40px_rgba(255,107,0,0.08)]"
           >
-            <div className="relative h-[250px] md:h-[600px] overflow-hidden">
+            <div className="relative h-[250px] md:h-[750px] overflow-hidden">
               <Image
                 src={project.image ?? "/webpage.png"}
                 alt={project.title}
