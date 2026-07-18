@@ -12,17 +12,19 @@ export default function Hero() {
                 <div className="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left space-y-4 lg:space-y-8">
                     <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-[#FF6B00] text-sm font-medium animate-fade-in-up delay-100">
                         <div className="w-2 h-2 rounded-full bg-[#FF6B00] animate-pulse" />
-                        Available for Projects
+                        Hello, I&apos;m
                     </div>
 
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight text-white animate-fade-in-up delay-200">
-                        Designing <br />
-                        <span className="text-transparent bg-clip-text bg-linear-to-r from-white to-[#FF6B00]">Experiences</span> <br />
-                        That Matter.
-                    </h1>
+  Shahriar Alom
+  <br />
+  <span className="bg-gradient-to-r from-[#FF6B00] via-[#FF9F43] to-white bg-clip-text text-transparent">
+    UI/UX Designer
+  </span>
+</h1>
 
                     <p className="text-base sm:text-lg text-white/80 max-w-md leading-relaxed animate-fade-in-up delay-300">
-                        I&apos;m Shahriar, a Jr. UX/UI Designer dedicated to creating premium, functional, and casually stunning digital products.
+                        UI/UX Designer specializing in SaaS, Mobile Apps & Dashboard Design. I create user-centered digital products that are beautiful, intuitive, and business-focused.
                     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-2 animate-fade-in-up delay-400">
