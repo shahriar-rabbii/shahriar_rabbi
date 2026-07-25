@@ -27,21 +27,21 @@ const projects = [
     },
     {
         title: "Sporve",
-        description: "A trading platform for car enthusiasts to trade in high-value collectibles.",
+        description: "A sports booking platform that allows users to book venues, matches, coaching sessions, and sports events.",
         image: "/sporve.png",
         alt: "Sporve App",
         link: "https://www.figma.com/design/ZsxEWudXvUAADeGg3A5jHN/vsrikan1?node-id=92-65&t=cBEN59wpJ1uZBVV5-0"
     },
     {
         title: "Ascela",
-        description: "AI-powered recruitment SaaS platform that streamlines hiring for startups and enterprises.",
+        description: "Women's Wellness & Nutrition App",
         image: "/ascela.png",
         alt: "Ascela App",
         link: "https://www.behance.net/gallery/249258651/Ascela-Personalized-Womens-Wellness-Nutrition-App"
     },
     {
         title: "Prottoyon",
-        description: "AI-powered recruitment SaaS platform that streamlines hiring for startups and enterprises.",
+        description: "Digital Government Certificates",
         image: "/prottoyon.png",
         alt: "Prottoy App",
         link: "https://www.behance.net/gallery/226418669/Prottoyon-App-Redesigning-Case-Study"
