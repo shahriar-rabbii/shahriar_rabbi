@@ -46,7 +46,13 @@ const projects = [
         alt: "Prottoy App",
         link: "https://www.behance.net/gallery/226418669/Prottoyon-App-Redesigning-Case-Study"
     },
-
+    {
+        title: "VIDI",
+        description: "An app built for serious readers, book lovers, and learners who value time, focus, and progress.",
+        image: "/covervidi.png",
+        alt: "VIDI App",
+        link: "https://www.figma.com/design/wr1CjC7BpJvM0NjoevtuFa/Book-e-commarce?node-id=458-3&t=gMC82ejeLY8GzDmR-1"
+    },
     {
         title: "Amar Adalot",
         description: "A Bangladeshi legal platform offering instant legal advice.",
