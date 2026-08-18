@@ -49,7 +49,7 @@ export default function CustomCursor() {
     <>
       {/* Trailing larger circle */}
       <motion.div
-        className="fixed top-0 left-0 w-8 h-8 rounded-full border-2 border-primary pointer-events-none z-[9998] hidden md:block"
+        className="fixed top-0 left-0 w-8 h-8 rounded-full border-2 border-[#FF6B00] pointer-events-none z-[9998] hidden md:block"
         animate={{
           x: mousePosition.x - 16, // center the 32px circle
           y: mousePosition.y - 16,
@@ -68,7 +68,7 @@ export default function CustomCursor() {
       />
       {/* Main cursor dot */}
       <motion.div
-        className="fixed top-0 left-0 w-2 h-2 bg-primary rounded-full pointer-events-none z-[9999] hidden md:block glow-orange"
+        className="fixed top-0 left-0 w-2 h-2 bg-[#FF6B00] rounded-full pointer-events-none z-[9999] hidden md:block glow-orange"
         animate={{
           x: mousePosition.x - 4, // center the 8px dot
           y: mousePosition.y - 4,
