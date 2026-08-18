@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Geist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -19,6 +19,11 @@ export const metadata: Metadata = {
 };
 
 import { Toaster } from "react-hot-toast";
+import { cn } from "@/lib/utils";
+import { TooltipProvider } from "@/components/ui/tooltip";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+
 
 export default function RootLayout({
   children,
@@ -26,15 +31,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} scroll-smooth`}>
+    <html lang="en" className={cn("scroll-smooth", inter.variable, "font-sans", geist.variable)}>
       <body className="font-sans min-h-screen flex flex-col text-white md:cursor-none">
-        <CustomCursor />
-        <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
-        <Navbar />
-        <main className="flex-grow pt-16">
-          {children}
-        </main>
-        <Footer />
+        <TooltipProvider>
+          <CustomCursor />
+          <Toaster position="bottom-right" toastOptions={{ duration: 3000 }} />
+          <Navbar />
+          <main className="flex-grow pt-16">
+            {children}
+          </main>
+          <Footer />
+        </TooltipProvider>
       </body>
     </html>
   );
