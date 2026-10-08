@@ -62,7 +62,7 @@ export default function Experience() {
                                 {
                                     degree: "MSc in Management Information Systems (MIS)",
                                     institution: "Daffodil International University",
-                                    year: "2025 – Present"
+                                    year: "2025 – 2026"
                                 },
                                 {
                                     degree: "BSc in Computer Science & Engineering (CSE)",
@@ -97,7 +97,7 @@ export default function Experience() {
                             <Award className="w-7 lg:w-8 h-7 lg:h-8 text-[#FF6B00]" />
                             <h2 className="text-2xl lg:text-3xl font-semibold text-white">Certifications</h2>
                         </div>
-                        
+
                         <div className="bg-[#111111]/40 backdrop-blur-xl p-5 lg:p-6 rounded-2xl border border-white/10 hover:border-white/30 transition-all">
                             <h3 className="text-base lg:text-lg font-semibold text-white mb-1">UI/UX Design Guided Program (6 Months)</h3>
                             <p className="text-[#FF6B00] text-xs lg:text-sm font-semibold">Ostad</p>

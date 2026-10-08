@@ -64,7 +64,7 @@ export default function MyStory() {
                         </div>
                         <div>
                             <h3 className="text-xl lg:text-2xl font-semibold text-white">Sparktech Agency</h3>
-                            <p className="text-white/80 text-xs lg:text-sm font-semibold mt-1">Junior UX/UI Designer</p>
+                            <p className="text-white/80 text-xs lg:text-sm font-semibold mt-1">UX/UI Designer</p>
                         </div>
                     </FadeIn>
 
