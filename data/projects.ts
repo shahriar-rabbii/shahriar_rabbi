@@ -4,12 +4,21 @@ export interface Project {
   description: string;
   image?: string;
   tags: string[];
-  link: string;
+  link?: string;
   github?: string;
   applink?: string;
 }
 
 export const projects: Project[] = [
+  {
+    id: "truckcalc",
+    title: "truckcalc",
+    description: "Know your numbers.Run your miles.",
+    image: "/truckcalc.png",
+    tags: ["UX/UI", "mile", "Calculetor"],
+    github: "https://github.com/yourusername/project1",
+    applink: "https://play.google.com/store/apps/details?id=com.truckcalc.app",
+  },
   {
     id: "letanest",
     title: "LetANest",
